@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "jthecoder12.simplecommandexeecutor.mixin",
+	"package": "jthecoder12.simplecommandexecutor.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
 	],

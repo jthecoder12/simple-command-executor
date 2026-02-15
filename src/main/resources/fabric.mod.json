@@ -3,20 +3,21 @@
 	"id": "simple-command-executor",
 	"version": "${version}",
 	"name": "Simple Command Executor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A simple command executor for Minecraft Java that does not depend on the chat",
 	"authors": [
 		"jthecoder12"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://jthecoder12.github.io/",
+		"sources": "https://github.com/jthecoder12/SimpleCommandExecutor",
+        "issues": "https://github.com/jthecoder12/SimpleCommandExecutor/issues/"
 	},
 	"license": "BSL-1.0",
 	"icon": "assets/simple-command-executor/icon.png",
-	"environment": "*",
+	"environment": "client",
 	"entrypoints": {
-		"main": [
-			"jthecoder12.simplecommandexeecutor.SimpleCommandExecutor"
+		"client": [
+			"jthecoder12.simplecommandexecutor.SimpleCommandExecutor"
 		]
 	},
 	"mixins": [
